@@ -523,7 +523,9 @@ margin: auto;
         width: 89%;
     }
 
-
+.article{
+    height: 1500px;
+}
 
 
     .details .procol .card {
