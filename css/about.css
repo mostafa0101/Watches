@@ -1,0 +1,225 @@
+@import url(main.css);
+@import url(header2.css);
+@import url(men.css);
+
+
+.about{
+    background-color: black;
+    color: white;
+    height: 300px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIyrgE1lJgnnEQU0AGshadIhl2b0jzRSsvQ&s);
+    background-size: 400px;
+    background-position: 900px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.about .txt{
+    margin: 70px 0px;
+    width: 55%;
+}
+.about a{
+    color: white;
+}
+.about h1{
+    font-weight: 750;
+    font-size: 55px;
+}
+.about span{
+    font-size: 19px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* End CSS about */
+
+
+/* Start CSS haven */
+.haven {
+    margin-top: 80px;
+    height: 300px;
+}
+.haven h5{
+    font-size:43px;
+    font-weight: 700;
+}
+.haven .col1 .txt{
+    display: flex;
+}
+/* End CSS haven */
+
+
+/* Start CSS wris */
+.wris{
+    display: flex;
+    height: 700px;
+}
+.wris .headtxt {
+    font-size: 50px;
+    text-align: center;
+}
+.wris .headtxt h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.wris .col1 .txt{
+    margin-top: 190px;
+}
+.wris .col1 .txt h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+.wris .col2 .pimg img{
+    width: 105%;
+}
+/* End CSS wris */
+
+
+
+/* Start CSS abt2 */
+.abt2{
+    display: flex;
+    height: 600px;
+}
+
+.abt2 .col2 .txt{
+    margin-top: 90px;
+}
+.abt2 .col2 .txt h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.abt2 .col1 .pimg img{
+    width: 99%;
+}
+
+/* End CSS abt2 */
+
+
+
+
+/* Start CSS abt3 */
+.abt3{
+    height: 450px;
+}
+.abt3 .col1 .txt{
+    text-align: center;
+}
+.abt3 .col1 .txt h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.abt3 .col1 .txt p{
+font-size: 18px;
+}
+.abt3 .col2{
+    display: flex;
+    justify-content: space-between;
+}
+.abt3 .col2 .box{
+    width: 32%;
+    border: 1px solid black ;
+
+}
+.abt3 .col2 .box .txt{
+    margin: 20px 20px;
+}
+.abt3 .col2 .box .txt h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.abt3 .col2 .box .txt i{
+    margin-left: 150px;
+}
+/* End CSS abt3 */
+
+
+
+
+@media screen and (max-width:1200px) {
+    
+    .about{
+        background-position: 600px;
+
+    }
+    .wris .col1 .txt{
+        margin-top: 60px;
+    }
+
+    .abt2 .col2 .txt{
+        margin-top: 0px;
+
+    }
+
+    .abt2 .col2 .txt p{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+    
+    .about{
+        background-position: 400px;
+        background-size: 300px;
+
+    }
+
+    .wris{
+        height: 500px;
+    }
+    .wris .col1 .txt{
+        margin: 40px 0px 0px -10px;
+    }
+    .wris .col1 .txt h5{
+        font-size: 25px;
+    }
+    .wris .col1 .txt p{
+        font-size: 12px;
+    }
+
+    
+    .haven h5{
+        font-size:35px;
+        font-weight: 700;
+    }
+    
+    .haven .col1 .txt p{
+        font-size: 15px;
+        margin: 0px 15px;
+    }
+
+
+    .abt2{
+        height: 450px;
+    }
+
+    .abt2 .col2 .txt h2{
+        font-size: 25px;
+    }
+
+    .abt2 .col2 .txt p{
+        font-size: 12px;
+    }
+    .abt2 .col1 .pimg img{
+        height: 100%;
+    }
+
+
+    .abt3 .col2 .box .txt{
+        margin: 20px 20px;
+    }
+    .abt3 .col2 .box .txt h3{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .abt3 .col2 .box .txt p{
+        font-size: 15px;
+    }
+    .abt3 .col2 .box .txt i{
+        margin-left: 150px;
+    }
+}

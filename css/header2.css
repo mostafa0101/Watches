@@ -1,0 +1,18 @@
+header{
+    margin:auto ;
+    width: 150%;
+    position: relative;
+}
+
+header ul{
+    margin-left: 30px;
+}
+header li{
+    margin: auto 5px;
+}
+header .mo{
+    margin-left: 280px;
+}
+header .mo i{
+    margin: auto 15px;
+}

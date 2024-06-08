@@ -1,0 +1,54 @@
+header{
+    margin:35px 0px 0px 0px;
+    width:95%;
+    display: flex;
+    position: absolute;
+    z-index: 111;
+    height: 12%;
+}
+header nav{
+    background-color: black;
+}
+header img{
+    margin-left: 120px;
+}
+.move{
+    padding: 20px;
+    background-color: black;
+    margin-left: 80px;
+}
+.mo{
+    margin-left: 400px;
+}
+ul{
+    font-weight: 600;
+    font-size: 17px;
+}
+.mo i{
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #dadcdd;
+    height: 55%;
+    line-height: 2;
+
+    
+}
+footer .fotcol{
+    margin:70px -25px;
+}
+footer h4{
+    font-weight: 700;
+}
+footer li{
+    font-weight: 400;
+}
+footer .txt{
+    width: 160%;
+}

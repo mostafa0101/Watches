@@ -1,0 +1,595 @@
+@import url(header2.css);
+
+
+/* Start CSS Men */
+
+.men{
+    background-color: black;
+    color: white;
+    height: 360px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIyrgE1lJgnnEQU0AGshadIhl2b0jzRSsvQ&s);
+    background-size: 400px;
+    background-position: 900px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.men .txt{
+    margin: 70px 0px;
+    width: 55%;
+}
+.men a{
+    color: white;
+}
+.men h1{
+    font-weight: 750;
+    font-size: 55px;
+}
+.men span{
+    font-size: 19px;
+    font-weight: 400;
+}
+/* End CSS Men */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Start CSS Details */
+
+.details{
+    margin: 80px;
+}
+.details .row1 {
+    border-bottom: 1px solid black;
+
+    
+}
+.details .col1{
+    width: 23.05%;
+    margin-right: 20px;
+    
+}
+.details  .col2 .txt{
+    border-left: 1px solid black;
+    width: 150%;
+    height: 100%;
+    
+}
+.details .col2 .txt h5 {
+    font-size: 17px;
+    margin: auto 20px;
+    padding-top: 10px;
+}
+
+
+
+.details .row2 .seccol {
+    border-right: 1px solid black;
+    width: 25.6%;
+    
+}
+.details .col3{
+    margin-top: 30px;
+}
+.details .row2 .card{
+    width: 19rem;
+}
+.details .txt{
+    border-bottom: 1px solid rgb(215, 213, 213);
+    display: flex;
+    line-height: 2.5;
+    width: 95%;
+}
+.ul1{
+    margin-right: 100px;
+    
+}
+.sq{
+    width: 25%;
+    height: 20%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.st{
+    font-size: 14px;
+    width: 120%;
+}
+.pr{
+    font-size: 13px;
+    width: 300%;
+}
+.mpr{
+    display: flex;
+    width: 300%;
+}
+.sq2{
+    width: 90%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 15px;
+
+}
+.details .sq2 span{
+    margin: auto 5px ;
+}
+
+.txth{height: 160px;}
+.txth2{height: 280px;}
+
+.sq3{
+    width: 27%;
+    height: 9%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 15px;
+}
+.bgbrown{background-color: brown;}
+
+
+
+
+.details .procol .card {
+    margin: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 2;
+    border-radius: 0;
+    background-color: transparent;
+
+    background-image: url(https://i.pinimg.com/564x/b4/08/e4/b408e410007c43e2ad3b16de2c7947aa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.details .procol .card img{
+    margin: auto;
+    width: 50%;
+}
+.details .procol .card span{
+    color: white;
+}
+.details .procol .card .txt{
+display: flex;
+border-bottom: 2px solid black;
+width: 50%;
+text-align: center;
+margin: auto;
+color: white;
+}
+.details .procol .card h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.details .procol .card h5{
+color: white;
+font-weight: 800;
+}
+.details .procol .card p{
+    color: white;
+}
+.details .procol .card del{
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+
+/* End CSS Details */
+
+
+
+/* Start CSS Feature */
+
+.feature{height: 90%;}
+.feature .col1{
+    display: flex;
+    width: 80%;
+}
+.feature .col1 .navt{
+    position: absolute;
+    right: 60;
+}
+.feature .col1 .txt h2{
+    font-size: 47px;
+    font-weight: 700;
+}
+.feature .col1 .navt li{
+    margin: auto 5px;
+}
+.navbtn{
+    background-color: black;
+    color: white;
+    border-radius: 0px; 
+}
+
+
+.feature  .card {
+    margin: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 2;
+    border-radius: 0;
+    background-color: transparent;
+    width: 19rem;
+    
+}
+.feature  .card img{
+    margin: auto;
+    width: 50%;
+}
+.feature  .card span{
+    color: gray;
+}
+.feature  .card .txt{
+display: flex;
+border-bottom: 2px solid black;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+.feature  .card h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.feature  .card del{
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+
+
+/* End CSS Feature */
+
+
+
+
+
+/* START CSS Contact */
+
+.mep{
+    width: 75%;
+}
+
+.contact{height: 70%;}
+.contact .form{
+    background-color: white;
+    width: 50%;
+    height: 90%;
+    border: 2px solid black;
+    position: absolute;
+    right: 90;
+    top: 180px;
+    z-index: 111;
+}
+.contact .form h1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 90px;
+    font-weight: 750;
+    font-size: 55px;
+}
+
+.contform{
+    margin: 10px 0px;
+    border-radius: 0px;
+    border: 1px solid black;
+    height: 48px;
+}
+.txtarea{
+    border-radius: 0px;
+    border: 1px solid black;
+    
+}
+.contact .form .btn{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 30%;
+    margin: auto 10px;
+}
+.contact .form .btn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.contact .col1 .txt{
+    display: flex;
+    width: 40%;
+    margin:70px 40px;
+}
+.contact .col1 .txt h5{
+    line-height: 2.5;
+    font-size: 22px;
+    font-weight: 700;
+}
+.contact .col1 .txt h4{
+    font-weight: 400;
+}
+/* END CSS Contact */
+
+
+
+
+.article{
+    height: 1000px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px)  {
+    
+    header{
+        width: 100%;
+        margin: 0px 50px 0px 0px;
+    }
+    header img{
+        margin-right: 90px;
+        margin-left: -10px;
+    }
+    header ul{
+        margin-left: -80px;
+    }
+    header li{
+        margin: auto 2px;
+    }
+    header .mo{
+        margin-left: 15px;
+    }
+
+
+    .men {
+        height: 400px;
+        background-position: 530px;
+        
+    }
+
+    .details .row1{
+        margin-left: -90px;
+    }
+    .details .row2{
+        margin-left: -100px;
+    }
+    .details .col1{
+        width: 25.8%;
+    }
+    .details .row2 .seccol{
+        width: 30%;
+    }
+
+    .details .txt{
+        width: 89%;
+    }
+    .ul1{
+        margin-right: 50px;
+    }
+
+    .details .row2 .card{
+        width: 13rem;
+    }
+
+    .details .procol .card {
+        margin: 3px 7px;
+    }
+    .details .procol .card img{
+        margin: auto;
+        width: 50%;
+    }
+    .details .procol .card .txt{
+    width: 30%;
+    }
+    .details .procol .card h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .details .procol .card del{
+        font-size: 12px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .sq{
+        width: 15%;
+        height: 12%;
+        border-radius: 20px;
+    
+    }
+
+    .sq3{
+        width: 35%;
+        height: 10%;
+        border-radius: 20px;
+    }
+    .stmedia{margin-top: 17px;}
+
+    .txth2{height: 350px;}
+    
+
+    .hid{display: none;}
+    .feature {
+        height: 500px;
+    }
+    .feature  .card {
+        margin: 3px 7px;
+    
+    }
+    .feature  .card img{
+        margin: auto;
+        width: 35%;
+    }
+    .feature  .card .txt{
+    width: 30%;
+    }
+    .feature  .card h4{
+        font-size: 17px;
+    }
+    .feature  .card del{
+        font-size: 14px;
+    }
+    
+
+
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    
+    .contact .col1 .txt h5{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .contact .col1 .txt h4{
+        font-size: 15px;
+        width: 60%;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+
+    
+
+
+}
+
+
+
+@media screen and (max-width:992px) {
+
+    .hid{display: none;}
+    .hid2{display: none;}
+    .details .col2 .txt {width: 100%;}
+
+    
+    .navbar-toggler{
+        margin-left: 471px;
+    }
+    header ul{
+    background-color: white;
+    }
+    header ul{
+        width: 30%;
+        position: absolute;
+        right:0;
+    }
+    header li{
+        margin: auto 2px;
+    }
+    header .mo{
+        margin-left: 15px;
+    }
+
+
+
+    .men {
+        height: 500px;
+        background-position: 450px;
+        background-size: 300px;
+        
+    }
+
+    .details .row1 {
+        width: 130%;
+    }
+    .details .row1 .col1{margin-left: -5px;} 
+    .details .row2{
+        margin-left: -83.5px;
+        width: 130%;
+    }
+    .details .col1{
+        width: 35.3%;
+    }
+    .details .row2 .seccol{
+        width: 38.1%;
+    }
+
+    .details .txt{
+        width: 89%;
+    }
+
+
+
+
+    .details .procol .card {
+        margin: 9px 8px;
+    }
+
+    .hid{display: none;}
+
+    .feature {
+        height: 500px;
+    }
+    .feature .col1 .txt h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .navbtn{
+        font-size: 13px;
+    }
+    .feature  .card {
+        margin: 3px 7px;
+        width: 14rem;
+    }
+    .feature  .card img{
+        margin: auto;
+        width: 35%;
+    }
+    .feature  .card .txt{
+    width: 30%;
+    }
+    .feature  .card h4{
+        font-size: 17px;
+    }
+    .feature  .card del{
+        font-size: 14px;
+    }
+    
+
+
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    
+    .contact{height: 80%;}
+
+    .contact .form{
+        top: 390px;
+        right: 40;
+        height: 105%;
+    }
+    .contform{
+        width: 104%;
+        margin: 0px ;
+
+    }
+
+    .contact .col1 .txt h4{
+        width: 90%;
+    }
+
+
+    footer{
+        height: 65%;
+    }    
+
+
+}
